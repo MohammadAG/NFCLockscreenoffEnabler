@@ -34,6 +34,7 @@
 	<!-- Translators, add your names here so you're credited in the app -->
     <string-array name="translators" translatable="false">
         <item>liveasx (Chinese / 汉语)</item>
+        <item>etatto (French)</item>
     </string-array>
 
     <string name="contributors_title">Contributors</string>

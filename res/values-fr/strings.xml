@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Active le NFC Verrouillé / Écran éteint</string>
+    <string name="menu_settings">Réglages</string>
+    <string name="NfcScreenOptionsTitle">Active le NFC, en plus de l\'usage normal avec écran allumé, lorsque :</string>
+    <string name="device_unlocked">l\'écran est allumé, et le périphérique est déverrouillé</string>
+    <string name="LockedScreenOn">le périphérique est verrouillé, et l\'écran est allumé</string>
+    <string name="ScreenOff">l\'écran est éteint (peu importe l\'état du verrouillage)</string>
+    <string name="DisablePluginTips">Pour remettre le fonctionnement par défaut du NFC (actif uniquement lorsque l\'écran est allumé et le périphérique déverrouillé), désinstallez ce module ou désactivez le dans l\'installateur Xposed.</string>
+    <string name="TaglostMessage">Active le message de perte de balise</string>
+    <string name="play_tag_lost_sound">Joue un son pour la perte de balise</string>
+    <string name="pref_description_play_tag_lost_sound">Joue un son lorsqu\'une balise NFC est perdue</string>
+    <string name="pref_description_enable_tag_lost_detection">Notifie les applications lorsqu\'une balise NFC est perdue</string>
+    <string name="pref_title_enable_nfc_for_lock_state">Active le NFC lorsque</string>
+    <string name="copyright_summary">Copyright © 2012-2013 – qwerty12\nCliquez pour les contributeurs.</string>
+
+    <string-array name="contributors_how">
+    	<item>Développeur principal</item>
+    	<item>Support de perte de balise</item>
+    	<item>Déverrouillage par NFC / Adaptations mineures</item>    
+    	<item>Support de TecTile et 4.1</item>
+    	<item>Support du HTC One</item>
+    </string-array>
+    
+    <string name="contributors_title">Contributeurs</string>
+    <string name="pref_title_presence_check_timeout">Durée entre les contrôle de présence</string>
+    <string name="pref_description_presence_check_timeout">Modifier cette valeur pour réduire la consommation de la batterie lorsque le périphérique est sur une balise NFC</string>
+    <string name="pref_summary_presence_check">Valeur actuelle de la durée :</string>
+    <string name="pref_dialog_description_presence_check_timeout">Modifie la durée entre les contrôles pour une balise NFC lorsque le périphérique est contre une. Une grande valeur implique une consommation moindre de la batterie lorsque le périphérique est contre une balise. Valeurs en millisecondes (1 s = 1000 ms)</string>
+    <string name="pref_title_debug_mode">Déboguage</string>
+    <string name="pref_description_debug_mode">Écrit des messages de déboguage dans logcat</string>
+    <string name="pref_title_show_in_launcher">Affiche l\'icône dans le lanceur</string>
+    <string name="pref_description_show_in_launcher">Désactiver ceci masque l\'icône dans le lanceur, les réglages resteront accessibles depuis l\'installateur Xposed en tapant sur ce module</string>
+    <string name="title_activity_nfc_tags">Balises NFC autorisées</string>
+    <string name="action_settings">Réglages</string>
+    <string name="authorized_nfc_tags_title">Balises NFC autorisées</string>
+    <string name="authorized_nfc_tags_description">Balises NFC qui pourrons déverrouiller votre périphérique</string>
+    <string name="tag_already_added">Balise déjà ajoutée</string>
+    <string name="nfc_tags_activity_description">Les balises NFC suivantes déverrouillerons votre périphériques. Tapez une balise NFC contre votre périphérique pour l\'ajouter. Faite glisser un ID vers la gauche ou vers la droite pour le supprimer. NFC lorsque l\'écran est éteint doit être activé.</string>
+    <string name="unnamed_tag">Balise sans nom</string>
+    <string name="new_tag_detected">Nouvelle balise NFC détectée</string>
+    <string name="type_in_name_for_tag">Donner un nom à la balise :</string>
+    <string name="nfc_sounds_to_play">Sons NFC à jouer</string>
+    <string name="nfc_sounds_to_play_description">Choisissez le son qui devra être joué lorsque des évènements NFS se produirons</string>
+    <string name="nfc_sound_start">Son de début</string>
+    <string name="nfc_sound_end">Son de fin</string>
+    <string name="nfc_sound_error">Son d\'erreur</string>
+    <string name="nfc_sound_taglost">Son de perte de balise</string>
+    <string name="settings_migrated">Migration des réglages réussie</string>
+    <string name="undo">Annuler</string>
+    <string name="tag_unauthorized">Balise supprimée</string>
+    <string name="translators_title">Traducteurs</string>
+
+</resources>
