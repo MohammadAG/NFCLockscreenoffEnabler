@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">NFC LockScreenOff Enabler</string>
-    <string name="menu_settings">Settings</string>
-    <string name="NfcScreenOptionsTitle">Enable NFC, in addition to normal usage when the screen is on, when the:</string>
-    <string name="device_unlocked">screen on, device unlocked</string>
-    <string name="LockedScreenOn">phone is locked, but the screen is on</string>
-    <string name="ScreenOff">screen is off (regardless of lock state)</string>
-    <string name="DisablePluginTips">To have NFC behaviour return to the default (only enabled when the screen is on and the phone unlocked), either uninstall this mod or disable this module in Xposed Installer.</string>
-    <string name="TaglostMessage">Enabled tag lost message</string>
-    <string name="play_tag_lost_sound">Play tag lost sound</string>
-    <string name="pref_description_play_tag_lost_sound">Play a sound when an NFC tag is lost</string>
-    <string name="pref_description_enable_tag_lost_detection">Notify applications when an NFC tag is lost</string>
-    <string name="pref_title_enable_nfc_for_lock_state">Enable NFC when</string>
-    <string name="copyright_summary">Copyright © 2012-2013 – qwerty12\nClick for contributors.</string>
-	<string name="xposed_description">Enable NFC when the screen is off, and use NFC to unlock your device</string>
+    <string name="app_name">锁屏启用NFC</string>
+    <string name="menu_settings">设置</string>
+    <string name="NfcScreenOptionsTitle">除屏幕正常开启时启用NFC，当:</string>
+    <string name="device_unlocked">屏幕点亮的解锁设备</string>
+    <string name="LockedScreenOn">手机处于锁定，但屏幕点亮</string>
+    <string name="ScreenOff">屏幕熄灭（任何锁定状态）</string>
+    <string name="DisablePluginTips">在Xposed中禁用或卸载此模块，以重置NFC（仅在屏幕点亮的解锁手机上可用）。</string>
+    <string name="TaglostMessage">启用标签丢失信息</string>
+    <string name="play_tag_lost_sound">标签丢失音效</string>
+    <string name="pref_description_play_tag_lost_sound">当NFC标签丢失时播放声音</string>
+    <string name="pref_description_enable_tag_lost_detection">当NFC标签丢失时通知应用</string>
+    <string name="pref_title_enable_nfc_for_lock_state">启用NFC，当</string>
+    <string name="copyright_summary">版权所有 © 2012-2013 – qwerty12\n点击查看参与者</string>
+	<string name="xposed_description">当屏幕熄灭时启用NFC，并且使用NFC解锁你的设备。</string>
     
     <string-array name="contributors" translatable="false">
         <item>qwerty12</item>
@@ -25,46 +25,47 @@
     </string-array>
     
     <string-array name="contributors_how">
-    	<item>Main developer</item>
-    	<item>Tag lost support</item>
-    	<item>NFC Unlocking / Minor tweaks</item>    
-    	<item>TecTile and 4.1 support</item>
-    	<item>HTC One support</item>
+    	<item>主要开发者</item>
+    	<item>标签丢失支持</item>
+    	<item>标签解锁/微调</item>    
+    	<item>TecTile和4.1支持</item>
+    	<item>HTC One支持</item>
     </string-array>
     
 	<!-- Translators, add your names here so you're credited in the app -->
     <string-array name="translators" translatable="false">
+        <item>qhq (Chinese / 简体中文)</item>
         <item>liveasx (Chinese / 汉语)</item>
         <item>etatto (French / Français)</item>
     </string-array>
 
-    <string name="contributors_title">Contributors</string>
-    <string name="pref_title_presence_check_timeout">Presence check timeout</string>
-    <string name="pref_description_presence_check_timeout">Change this value to reduce battery consumption when the device is kept on an NFC tag</string>
-    <string name="pref_summary_presence_check">Current timeout value:</string>
-    <string name="pref_dialog_description_presence_check_timeout">Change the timeout of checking for an NFC tag when the device is placed on one. A higher value means lower battery consumption while the device is on the tag. Values in milliseconds (1s = 1000ms)</string>
-    <string name="pref_title_debug_mode">Debug mode</string>
-    <string name="pref_description_debug_mode">Show debug messages in logcat</string>
-    <string name="pref_title_show_in_launcher">Show icon in launcher</string>
-    <string name="pref_description_show_in_launcher">Disabling this hides the icon from the launcher, open settings by tapping the module in Xposed Installer</string>
-    <string name="title_activity_nfc_tags">Authorized NFC Tags</string>
-    <string name="action_settings">Settings</string>
-    <string name="authorized_nfc_tags_title">Authorized NFC tags</string>
-    <string name="authorized_nfc_tags_description">NFC tags that will unlock your device</string>
-    <string name="tag_already_added">NFC tag already added</string>
-    <string name="nfc_tags_activity_description">The following NFC tags will unlock your device. Tap an NFC tag with your device to add it, swipe an ID left or right to delete it. NFC while screen off has to be enabled.</string>
-    <string name="unnamed_tag">Unnamed tag</string>
-    <string name="new_tag_detected">New NFC tag detected</string>
-    <string name="type_in_name_for_tag">Type a name for the tag:</string>
-    <string name="nfc_sounds_to_play">NFC sounds to play</string>
-    <string name="nfc_sounds_to_play_description">Select the sounds that should be played when NFC-related events happen</string>
-    <string name="nfc_sound_start">Start sound</string>
-    <string name="nfc_sound_end">End sound</string>
-    <string name="nfc_sound_error">Error sound</string>
-    <string name="nfc_sound_taglost">Tag lost sound</string>
-    <string name="settings_migrated">Settings migration successful</string>
-    <string name="undo">Undo</string>
-    <string name="tag_unauthorized">Tag deauthorized</string>
-    <string name="translators_title">Translators</string>
+    <string name="contributors_title">参与者</string>
+    <string name="pref_title_presence_check_timeout">识别超时</string>
+    <string name="pref_description_presence_check_timeout">改变此数值以减少设备保持在NFC上时的电量消耗</string>
+    <string name="pref_summary_presence_check">当前值：</string>
+    <string name="pref_dialog_description_presence_check_timeout">变更当设备放置在一个NFC标签上识别的超时时间。较高的值意味着更少的电量消耗。单位毫秒（1秒=1000毫秒）</string>
+    <string name="pref_title_debug_mode">调试模式</string>
+    <string name="pref_description_debug_mode">在logcat中显示调试信息</string>
+    <string name="pref_title_show_in_launcher">在启动器中显示图标</string>
+    <string name="pref_description_show_in_launcher">禁用此项在启动器中隐藏图标，可在Xposed中长按模块以打开设置</string>
+    <string name="title_activity_nfc_tags">授权NFC标签</string>
+    <string name="action_settings">设置</string>
+    <string name="authorized_nfc_tags_title">授权NFC标签</string>
+    <string name="authorized_nfc_tags_description">NFC标签将可解锁您的设备</string>
+    <string name="tag_already_added">NFC标签已添加</string>
+    <string name="nfc_tags_activity_description">以下标签将可解锁您的设备。点击一个标签以添加，向左或向右滑动删除。屏幕熄灭时保持NFC已启用。</string>
+    <string name="unnamed_tag">未命名标签</string>
+    <string name="new_tag_detected">检测到新标签</string>
+    <string name="type_in_name_for_tag">输入标签名称:</string>
+    <string name="nfc_sounds_to_play">NFC音效</string>
+    <string name="nfc_sounds_to_play_description">选择当NFC被触发时播放的音效</string>
+    <string name="nfc_sound_start">开始声音</string>
+    <string name="nfc_sound_end">结束声音</string>
+    <string name="nfc_sound_error">错误声音</string>
+    <string name="nfc_sound_taglost">标签丢失声音</string>
+    <string name="settings_migrated">设置迁移成功</string>
+    <string name="undo">撤销</string>
+    <string name="tag_unauthorized">标签授权</string>
+    <string name="translators_title">翻译者</string>
 
 </resources>
