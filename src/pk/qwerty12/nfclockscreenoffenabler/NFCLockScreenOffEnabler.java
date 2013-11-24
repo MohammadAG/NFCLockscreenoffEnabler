@@ -524,8 +524,10 @@ public class NFCLockScreenOffEnabler implements IXposedHookZygoteInit, IXposedHo
 
 				if (currentapiVersion < android.os.Build.VERSION_CODES.JELLY_BEAN_MR1) {
 					className = "com.android.internal.policy.impl.LockPatternKeyguardView";
-				} else {
+				} else if (currentapiVersion < android.os.Build.VERSION_CODES.KITKAT) {
 					className = "com.android.internal.policy.impl.keyguard.KeyguardHostView";
+				} else {
+					className = "com.android.keyguard.KeyguardHostView";
 				}
 
 				Class<?> ClassToHook = findClass(className, lpparam.classLoader);
@@ -569,8 +571,10 @@ public class NFCLockScreenOffEnabler implements IXposedHookZygoteInit, IXposedHo
 				String className;		
 				if (currentapiVersion < android.os.Build.VERSION_CODES.JELLY_BEAN_MR1) {
 					className = "com.android.internal.policy.impl.KeyguardViewManager";
-				} else {
+				} else if (currentapiVersion < android.os.Build.VERSION_CODES.KITKAT) {
 					className = "com.android.internal.policy.impl.keyguard.KeyguardViewManager";
+				} else {
+					className = "com.android.keyguard.KeyguardViewManager";
 				}
 				Class<?> KeyguardViewManager = findClass(className, lpparam.classLoader);
 				XposedBridge.hookAllConstructors(KeyguardViewManager, new XC_MethodHook() {
