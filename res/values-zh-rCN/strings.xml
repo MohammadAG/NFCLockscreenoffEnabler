@@ -4,23 +4,38 @@
     <string name="app_name">NFC锁屏开启</string>
     <string name="menu_settings">设置</string>
     <string name="NfcScreenOptionsTitle">启用NFC，除了正常使用屏幕时，当：</string>
-    <string name="device_unlocked">screen on, device unlocked</string>
-    <string name="LockedScreenOn">手机被锁定，但屏幕上</string>
+    <string name="device_unlocked">屏幕开启, 设备锁定</string>
+    <string name="LockedScreenOn">手机被锁定，但屏幕开启</string>
     <string name="ScreenOff">屏幕关闭（不管锁定状态）</string>
-    <string name="DisablePluginTips">有NFC行为回报为默认值（仅启用时，屏幕上的手机解锁），无论是卸载这个mod或禁用Xposed安装这个模块。</string>
-    <string name="TaglostMessage">启用标签丢失消息</string>
-    <string name="play_tag_lost_sound">播放标签丢失声音</string>
-    <string name="pref_description_play_tag_lost_sound">一个NFC标签丢失时播放声音</string>
-    <string name="pref_description_enable_tag_lost_detection">通知应用程序的NFC标签丢失</string>
+    <string name="DisablePluginTips">有NFC行为回报为默认值（仅启用时，屏幕上的手机解锁），无论是卸载这个插件或在Xposed安装器上禁用这个模块。</string>
+    <string name="TaglostMessage">启用标签失败消息</string>
+    <string name="play_tag_lost_sound">播放标签失败声音</string>
+    <string name="pref_description_play_tag_lost_sound">NFC标签失败时播放一个声音</string>
+    <string name="pref_description_enable_tag_lost_detection">NFC标签失败通知应用程序</string>
     <string name="pref_title_enable_nfc_for_lock_state">启用NFC为</string>
-    <string name="copyright_summary">Copyright © 2012-2013 – qwerty12\n点击查看贡献者</string>
+    <string name="copyright_summary">Copyright ? 2012-2013 – qwerty12\n点击查看贡献者</string>
+	<string name="xposed_description">当屏幕关闭使用NFC来解锁您的设备</string>
 
-    <string-array name="contributors_how">
-        <item>Main developer</item>
-        <item>Tag lost support</item>
-        <item>NFC Unlocking / Minor tweaks</item>
-        <item>TecTile and 4.1 support</item>
-        <item>HTC One support</item>
+    <string-array name="contributors" translatable="false">
+        <item>qwerty12</item>
+        <item>madfish73</item>
+        <item>MohammadAG</item>
+        <item>sleavitt</item>
+        <item>vrthe1</item>
+    </string-array>
+	
+	<string-array name="contributors_how">
+            <item>Main developer</item>
+            <item>Tag lost support</item>
+            <item>NFC Unlocking / Minor tweaks</item>    
+            <item>TecTile and 4.1 support</item>
+            <item>HTC One support</item>
+    </string-array>
+    
+        <!-- Translators, add your names here so you're credited in the app -->
+    <string-array name="translators" translatable="false">
+        <item>liveasx (Chinese / 简体)</item>
+        <item>etatto (French / Fran?ais)</item>
     </string-array>
 
     <string name="contributors_title">贡献者</string>
@@ -49,7 +64,7 @@
     <string name="nfc_sound_taglost">标签失败声音</string>
     <string name="settings_migrated">设置迁移成功</string>
     <string name="undo">复原</string>
-    <string name="tag_unauthorized">Tag deauthorized</string>
+    <string name="tag_unauthorized">授权标签</string>
     <string name="translators_title">翻译</string>
 
 </resources>
