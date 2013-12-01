@@ -7,14 +7,22 @@
     <string name="device_unlocked">屏幕点亮的解锁设备</string>
     <string name="LockedScreenOn">手机处于锁定，但屏幕点亮</string>
     <string name="ScreenOff">屏幕熄灭（任何锁定状态）</string>
-    <string name="DisablePluginTips">在Xposed中禁用或卸载此模块，以重置NFC（仅在屏幕点亮的解锁手机上可用）。</string>
+    <string name="DisablePluginTips">在Xposed中禁用或卸载此模块，以重置NFC（仅在屏幕点亮的解锁手机上可用）</string>
     <string name="TaglostMessage">启用标签丢失信息</string>
     <string name="play_tag_lost_sound">标签丢失音效</string>
     <string name="pref_description_play_tag_lost_sound">当NFC标签丢失时播放声音</string>
     <string name="pref_description_enable_tag_lost_detection">当NFC标签丢失时通知应用</string>
     <string name="pref_title_enable_nfc_for_lock_state">启用NFC，当</string>
     <string name="copyright_summary">版权所有 © 2012-2013 – qwerty12\n点击查看参与者</string>
-	<string name="xposed_description">当屏幕熄灭时启用NFC，并且使用NFC解锁你的设备。</string>
+    <string name="xposed_description">当屏幕熄灭时启用NFC，并且使用NFC解锁你的设备。</string>
+    
+    <string-array name="contributors" translatable="false">
+        <item>qwerty12</item>
+        <item>madfish73</item>
+        <item>MohammadAG</item>
+        <item>sleavitt</item>
+        <item>vrthe1</item>
+    </string-array>
     
     <string-array name="contributors_how">
     	<item>主要开发者</item>
@@ -22,6 +30,13 @@
     	<item>标签解锁/微调</item>    
     	<item>TecTile和4.1支持</item>
     	<item>HTC One支持</item>
+    </string-array>
+    
+    <!-- Translators, add your names here so you're credited in the app -->
+    <string-array name="translators" translatable="false">
+        <item>qhq (Current Chinese / 中文)</item>
+        <item>liveasx (Chinese Simplified / 中文简体)</item>
+        <item>etatto (French / Français)</item>
     </string-array>
 
     <string name="contributors_title">参与者</string>
