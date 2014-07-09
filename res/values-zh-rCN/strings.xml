@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">NFC开启锁屏</string>
+    <string name="app_name">NFC标签开启锁屏</string>
     <string name="menu_settings">设置</string>
-    <string name="NfcScreenOptionsTitle">启用NFC，除了正常使用屏幕时，当：</string>
+    <string name="NfcScreenOptionsTitle">启用NFC标签，除了正常使用屏幕时，当：</string>
     <string name="device_unlocked">屏幕开启, 设备锁定</string>
     <string name="LockedScreenOn">手机处于锁定，但屏幕点亮</string>
-    <string name="ScreenOff">屏幕熄灭（任何锁定状态）</string>
-    <string name="DisablePluginTips">在Xposed中禁用或卸载此模块以重置NFC（仅在屏幕点亮的解锁手机上可用）</string>
-    <string name="TaglostMessage">启用标签丢失信息</string>
+    <string name="ScreenOff">屏幕熄灭（不管锁定状态）</string>
+    <string name="DisablePluginTips">将NFC的操作返回到默认状态（仅在解除锁屏并已开启屏幕上可用）也可在Xposed安装器中禁用或卸载此模块</string>
+    <string name="TaglostMessage">启用标签失败信息</string>
     <string name="play_tag_lost_sound">播放标签失败声音</string>
     <string name="pref_description_play_tag_lost_sound">当NFC标签失败时播放声音</string>
     <string name="pref_description_enable_tag_lost_detection">当NFC标签失败通知应用程序</string>
-    <string name="pref_title_enable_nfc_for_lock_state">启用NFC为</string>
-    <string name="copyright_summary">版权所有 © 2012-2014 – qwerty12\n点击查看参与者</string>
-    <string name="xposed_description">当屏幕关闭使用NFC来解锁您的设备</string>
+    <string name="pref_title_enable_nfc_for_lock_state">启用NFC状态</string>
+    <string name="copyright_summary">版权所有 © 2012-2014 – qwerty12\n点击查看贡献者</string>
+    <string name="xposed_description">当屏幕关闭后使用NFC标签来解锁您的设备</string>
 
     <string-array name="contributors_how">
         <item>主要开发者</item>
         <item>支持标签失败</item>
         <item>标签解锁/微调</item>
-        <item>支持TecTile和4.1</item>
-        <item>支持HTC One</item>
-        <item>支持Basic KitKat</item>
+        <item>支持TecTile标签和4.1</item>
+        <item>支持HTC One手机</item>
+        <item>支持基本KitKat</item>
         <item>支持更多标签</item>
     </string-array>
 
-    <string name="contributors_title">参与者</string>
+    <string name="contributors_title">贡献者</string>
     <string name="pref_title_presence_check_timeout">识别超时</string>
     <string name="pref_description_presence_check_timeout">改变此数值以减少设备保持在NFC上时的电量消耗</string>
     <string name="pref_summary_presence_check">当前值：</string>
@@ -34,26 +34,26 @@
     <string name="pref_title_debug_mode">调试模式</string>
     <string name="pref_description_debug_mode">在logcat中显示调试信息</string>
     <string name="pref_title_show_in_launcher">在启动器中显示图标</string>
-    <string name="pref_description_show_in_launcher">禁用此项在启动器中隐藏图标，可在Xposed中长按模块以打开设置</string>
-    <string name="title_activity_nfc_tags">授权NFC标签</string>
+    <string name="pref_description_show_in_launcher">禁用此项在启动器中隐藏图标，可在Xposed中点击模块以打开设置</string>
+    <string name="title_activity_nfc_tags">授权的NFC标签</string>
     <string name="action_settings">设置</string>
     <string name="authorized_nfc_tags_title">授权NFC标签</string>
     <string name="authorized_nfc_tags_description">NFC标签将可解锁您的设备</string>
     <string name="tag_already_added">NFC标签已添加</string>
-    <string name="nfc_tags_activity_description">以下标签将可解锁您的设备。点击一个标签以添加，向左或向右滑动删除。屏幕熄灭时保持NFC已启用。</string>
+    <string name="nfc_tags_activity_description">下面的标签将可以解锁您的设备，点击一个标签以添加，向左或向右滑动删除。启用NFC需要屏幕熄灭</string>
     <string name="unnamed_tag">未命名标签</string>
     <string name="new_tag_detected">检测到新标签</string>
     <string name="type_in_name_for_tag">输入标签名称:</string>
-    <string name="nfc_sounds_to_play">NFC音效</string>
+    <string name="nfc_sounds_to_play">播放NFC标签音效</string>
     <string name="nfc_sounds_to_play_description">选择当NFC被触发时播放的音效</string>
     <string name="nfc_sound_start">开始声音</string>
     <string name="nfc_sound_end">结束声音</string>
     <string name="nfc_sound_error">错误声音</string>
-    <string name="nfc_sound_taglost">标签失败声音</string>
+    <string name="nfc_sound_taglost">失败声音</string>
     <string name="settings_migrated">设置迁移成功</string>
     <string name="undo">撤销</string>
-    <string name="tag_unauthorized">标签授权</string>
-    <string name="translators_title">翻译者</string>
+    <string name="tag_unauthorized">授权标签</string>
+    <string name="translators_title">翻译人员</string>
     <string name="not_supported_yet_kitkat">目前暂不支持KitKat系统</string>
 
 </resources>
