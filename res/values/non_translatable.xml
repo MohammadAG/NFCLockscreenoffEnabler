@@ -16,7 +16,7 @@
     <!-- Translators, add your names here so you're credited in the app -->
     <string-array name="translators" translatable="false">
         <item>qhq (Current Chinese / 汉语)</item>
-        <item>liveasx (Previous Chinese / 汉语)</item>
+        <item>Asx (Simplified Chinese / 简体中文)</item>
         <item>etatto (French / Français)</item>
         <item>Alienz (Vietnamese / Tiếng Việt)</item>
     </string-array>
